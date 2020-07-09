@@ -1,0 +1,29 @@
+{
+  "name": "projet-gt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiToShiNoHikari/Projet-GT-PROD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AiToShiNoHikari/Projet-GT-PROD/issues"
+  },
+  "homepage": "https://github.com/AiToShiNoHikari/Projet-GT-PROD#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0",
+    "uuidv4": "^6.1.1"
+  }
+}
